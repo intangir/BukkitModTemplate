@@ -1,0 +1,7 @@
+name: BasicMod
+main: com.github.intangir.BasicMod.BasicMod
+version: 1.0
+load: startup
+description: Basic Bukkit Mod Description
+author: Intangir
+
