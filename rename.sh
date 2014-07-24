@@ -16,10 +16,11 @@ echo "Changing description to: $newdesc"
 cp -a . ../$newname
 cd ../$newname
 
-sed -i "s/Basic Bukkit Mod Description/$newdesc/g" *.*
+rm -rf .git
 
-find . -type f -exec sed -i s/BasicMod/$newname/g {} \;
+find . -type f -exec sed -i "s/BukkitModTemplate/$newname/g" {} \;
+find . -type f -exec sed -i "s/Bukkit Mod Template Description/$newdesc/g" {} \;
 
-mv src/com/github/intangir/BasicMod src/com/github/intangir/$newname
-mv src/com/github/intangir/$newname/BasicMod.java src/com/github/intangir/$newname/$newname.java
+mv src/main/java/com/github/intangir/BukkitModTemplate src/main/java/com/github/intangir/$newname
+mv src/main/java/com/github/intangir/$newname/BukkitModTemplate.java src/main/java/com/github/intangir/$newname/$newname.java
 

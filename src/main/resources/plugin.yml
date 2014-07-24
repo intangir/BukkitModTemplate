@@ -1,7 +1,7 @@
-name: BasicMod
-main: com.github.intangir.BasicMod.BasicMod
-version: 1.0
+name: BukkitModTemplate
+main: com.github.intangir.BukkitModTemplate.BukkitModTemplate
+version: ${version}
 load: startup
-description: Basic Bukkit Mod Description
+description: Bukkit Mod Template Description
 author: Intangir
 

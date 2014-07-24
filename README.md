@@ -1,4 +1,4 @@
-BasicMod
+BukkitModTemplate
 ============
 
-Basic Bukkit Mod Description
+Bukkit Mod Template Description

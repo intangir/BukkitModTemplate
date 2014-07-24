@@ -1,4 +1,4 @@
-package com.github.intangir.BasicMod;
+package com.github.intangir.BukkitModTemplate;
 
 import java.util.logging.Logger;
 
@@ -7,7 +7,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class BasicMod extends JavaPlugin implements Listener
+public class BukkitModTemplate extends JavaPlugin implements Listener
 {
     public Logger log;
     public PluginDescriptionFile pdfFile;
